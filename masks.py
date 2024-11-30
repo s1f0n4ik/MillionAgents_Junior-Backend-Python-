@@ -2,6 +2,7 @@ class EmailMasker:
     def __init__(self, mask_char='x'):
         self.mask_char = mask_char
 
+    #bobr
     def mask(self, email):
         local_part, domain = email.split('@')
         masked_local_part = self.mask_char * len(local_part)
