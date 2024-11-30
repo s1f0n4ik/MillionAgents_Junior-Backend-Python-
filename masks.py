@@ -48,6 +48,7 @@ class SkypeMasker:
                 return self._mask_handle(skype_handle)
         return skype_handle
 
+    # aboba
     def _mask_handle(self, handle):
         new_handle = "skype:" + self.mask_char * 3
         return new_handle
