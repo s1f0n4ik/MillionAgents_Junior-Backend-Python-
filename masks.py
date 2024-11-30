@@ -8,6 +8,7 @@ class EmailMasker:
         return f"{masked_local_part}@{domain}"
 
 
+# cl;ass aboba
 class PhoneNumberMasker:
     def __init__(self, mask_char='x', num_chars_to_mask=3):
         self.mask_char = mask_char
